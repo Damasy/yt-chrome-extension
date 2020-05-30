@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LEGO & Magnets Media</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" type="text/css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="popup.css">
+</head>
+
+<body id="app">
+  <div class="modal-header">
+    <h1 class="logo">
+      <img src="images/logo.jpg" alt="logo" class="logo-icon"> LEGO & Magnets
+  </div>
+  <hr style="margin-top: 0;" />
+  <div class="modal-content">
+
+    <!-- <div class="d-flex options-item">
+      <input type="checkbox" name="enable" value="enable" id="enable">
+      <label for="enable">Enable Extension</label>
+    </div> -->
+
+    <!-- <label class="container-checkbox">One
+      <input type="checkbox" checked="checked">
+      <span class="checkmark"></span>
+    </label>
+    <label class="container-radio">One
+      <input type="radio" checked="checked" name="radio">
+      <span class="checkmark"></span>
+    </label>
+    <label class="container-radio">Two
+      <input type="radio" name="radio">
+      <span class="checkmark"></span>
+    </label> -->
+    <hr />
+    <div class="d-flex flex-column options-list">
+      <div class="d-flex options-item" style="justify-content: space-between;">
+        <label for="refresh">Channel ID</label>
+        <input type="text" name="channelId" value="" id="channelId">
+      </div>
+      <!-- <div class="d-flex options-item">
+        <input type="radio" name="main-option" value="replay" id="replay">
+        <label for="replay">Replay video</label>
+      </div>
+      <div class="d-flex options-item">
+        <input type="radio" name="main-option" value="suggestion" id="suggestion">
+        <label for="suggestion">open the first suggested video</label>
+      </div> -->
+      <hr />
+      <div class="d-flex options-item">
+        <input type="checkbox" name="like" value="like" id="like">
+        <label for="like">auto like</label>
+      </div>
+      <div class="d-flex options-item">
+        <input type="checkbox" name="comment" value="comment" id="comment">
+        <label for="comment">make a comment</label>
+      </div>
+      <div class="d-flex options-item">
+        <input type="checkbox" name="low-quality" value="low-quality" id="low-quality">
+        <label for="low-quality">change the quality to lowest</label>
+      </div>
+      <div class="d-flex options-item">
+        <input type="checkbox" name="skip-ads" value="skip-ads" id="skip-ads">
+        <label for="skip-ads">Skip ads</label>
+      </div>
+      <div class="d-flex options-item">
+        <input type="checkbox" name="auto-replay-off" value="auto-replay-off" id="auto-replay-off">
+        <label for="auto-replay-off">stop auto replay</label>
+      </div>
+    </div>
+    <div class="execute-btn">
+      <button class="btn" name="execute" id="execute">Run</button>
+      <button class="btn" name="stop" id="stop" style="display: none;">Stop</button>
+    </div>
+  </div>
+  <hr style="margin-bottom: 0;">
+  <div class="modal-icons">
+    <div class="flex-container">
+      <div class="flex">
+        <a class="flex-item" href="https://www.youtube.com/channel/UCLLQBg52ZcRCy8DqoxAC3nQ" target="_blank"
+          rel="noopener noreferrer">
+          <i class="fa fa-youtube"></i>
+        </a>
+
+        <a class="flex-item" href="https://www.facebook.com/Magnets-Mania-111176260538613/" target="_blank"
+          rel="noopener noreferrer">
+          <i class="fa fa-facebook-square"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  <hr style="margin-top: 0;" />
+  <div class="headerButtonDKM">
+    <label for="colored" class="firsLabelDKM colored">
+      <input type="checkbox" id="colored" />
+      <label>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </label>
+  </div>
+  <script src="popup.js"></script>
+</body>
+
+</html>
